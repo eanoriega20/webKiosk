@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Define standard dimensions to comply with Holo-style grids and rhythm. -->
+ 
+    <dimen name="margin_tiny">5dp</dimen>
+    <dimen name="margin_small">10dp</dimen>
+    <dimen name="margin_medium">20dp</dimen>
+    <dimen name="margin_large">50dp</dimen>
+    <dimen name="margin_huge">100dp</dimen>
+    
+    <dimen name="min_width">100dp</dimen>
+    <dimen name="min_height">150dp</dimen>
+ 
+    <!-- Semantic definitions -->
+ 
+    <dimen name="marginDialogRight">@dimen/margin_small</dimen>
+    <dimen name="marginDialogLeft">@dimen/margin_small</dimen>
+    
+    <dimen name="DialogWidth">@dimen/min_width</dimen>
+    <dimen name="DialogHeight">@dimen/min_height</dimen>
+    
+    
+</resources>

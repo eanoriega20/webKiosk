@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/my_view1"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        android:hint="URL"
+        android:inputType="textWebEditText" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/exit"
+        android:layout_below="@+id/changePat"
+        android:layout_alignLeft="@+id/url"
+        android:enabled="false"
+        android:layout_gravity="center"
+        android:text="@string/URL" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_below="@+id/changePat"
+		android:layout_gravity="center"
+        android:layout_toRightOf="@+id/save"
+        
+        android:text="@string/finish" />
+
+    <Button
+        android:id="@+id/changePat"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/save"
+        android:layout_gravity="center"
+        android:layout_below="@+id/url"
+        
+        
+        android:text="@string/changeModPatInit" />
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!--  SPANISH -->
+
+    <string name="app_name">WebKiosk</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!--  botones -->
+    <string name="next">Siguiente</string>
+    <string name="changePatInit">Configurar Secuencia</string>
+    <string name="changeModPatInit">Modificar secuencia</string>
+    <string name="changePatInitAgain">Configurar de nuevo</string>
+    <string name="full">Instalar Full!Screen</string>
+    <string name="URL">Guardar</string>
+    <string name="finish">Salir</string>
+    
+
+    <!--  labels -->
+    <string name="titleDialog1">Configuración inicial</string>
+    <string name="lblDialog1">Gracias por instalar WebKiosk.\nEs necesario configurar la aplicación en 2 sencillos pasos.\nPulsa Siguiente para continuar.</string>
+    
+    
+    <string name="titleDialog2">Configuración URL</string>
+    <string name="lblDialog2">Introduce la página web o la URL que desees que WebKiosk muestre.\nUna vez hecho, pulsa Siguiente.</string>
+    
+    
+    <string name="titleDialog3">Configuración de desbloqueo</string>
+    <string name="lblDialog3">Será necesario configurar una secuencia de desbloqueo para poder realizar modificaciones. \nDefínela pulsando 4 esquinas de la pantalla de tu dispositivo en el orden que quieras, igual que las flechas rojas de la imagen.\nSerá necesario confirmar la secuencia introducida.</string>
+    
+    
+    <string name="titleDialog4">Configuración finalizada</string>
+    <string name="lblDialog4">WebKiosk ya está configurado correctamente.\nPara realizar modificaciones, recuerda desbloquear la aplicación usando la secuencia definida en el paso anterior. \nPara ejecutar la aplicación en el dispositivo a pantalla completa, recomendamos intalar Full!Screen. (Necesario ROOT)</string>
+    
+    <string name="titleDialog5">Configuración</string>
+    
+    <!--  touchs -->
+    <string name="touchNewPatter">Pulse las esquinas de la pantalla 4 veces en el orden deseado</string>
+    <string name="touchRepeatPatter">Repita la secuencia</string>
+    <string name="touchFirstPatter">Necesario configurar la secuencia antes de continuar</string>
+    <string name="touchClosing">Cerrando&#8230; Gracias por usar WebKiosk</string>
+    <string name="touchSavedPattern">Secuencia guardada correctamente</string>
+
+    <string name="touchPatternFailed">Modificación de contraseña fallida. Las secuencias no coinciden</string>
+    <string name="touchURLModify">URL Modificada</string>
+    
+    
+    <!--  configuración -->
+    <!--  default margins -->
+
+
+
+</resources>

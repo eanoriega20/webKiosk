@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!--  ENGLISH -->
+
+    <string name="app_name">WebKiosk</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!--  botones -->
+    <string name="next">Next</string>
+    <string name="changePatInit">Configure sequence</string>
+    <string name="changeModPatInit">Change sequence</string>
+    <string name="changePatInitAgain">Configure Again</string>
+    <string name="full">Install Full!Screen</string>
+    <string name="URL">Save</string>
+    <string name="finish">Exit</string>
+    
+
+    <!--  labels -->
+    <string name="titleDialog1">Initial Setup</string>
+	<string name="lblDialog1">Thanks for installing WebKiosk.\nIt\'s necessary to setup the app in 2 simple steps.\nPress Next to continue.</string>    
+    
+    <string name="titleDialog2">Setup URL</string>
+    <string name="lblDialog2">Enter the web page or the URL that you want to display.\nOnce done, press Next.</string>
+    
+    
+    <string name="titleDialog3">Unlock Setup</string>
+    <string name="lblDialog3">Now, it\'s necessary to setup an unlock sequence to make future changes. n\Define it by pressing 4 corners on the display of your device in the sequence that you want, like the red arrows of the picture.\nIt will be necessary to confirm the introduced sequence.</string>
+    
+    <string name="titleDialog4">Setup Completed</string>
+    <string name="lblDialog4">WebKiosk is already set correctly.\nNow, to make changes, remember unlocking the app pressing the corners of the display like the previously set sequence.\nTo execute the app using all the screen, we recommend install Full!Screen. (Necessary ROOT)</string>
+    
+    <string name="titleDialog5">Setup</string>
+    
+    <!--  touchs -->
+    <string name="touchNewPatter">Press the corners of the display by 4 times in the desired order</string>
+    <string name="touchRepeatPatter">Repeat the sequence</string>
+    <string name="touchFirstPatter">It\'s necessary to setup the sequence before continue</string>
+    <string name="touchClosing">Closing&#8230; Thanks for using WebKiosk</string>
+    <string name="touchSavedPattern">Sequence saved correctly</string>
+
+    <string name="touchPatternFailed">Changing password failed. Mismatched sequences</string>
+    <string name="touchURLModify">URL Modified</string>
+    
+    <!--  configuración -->
+    <!--  default margins -->
+
+
+
+</resources>
